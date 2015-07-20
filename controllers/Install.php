@@ -1,13 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Xinstall extends MX_Controller  {
+class Install extends CI_Controller  {
 	/**
-	 * Index controller for WEBSITE module.
 	 *
-	 * XCMSv1.0;
-	 * Developed by: www.uxcritivo.com
+	 * Codeigniter Install Mysql
+	 * Developed by: www.joelferreira.eu
 	 * Licence MIT
-	 * Check project: uxcritivo.github.io/xcms 
+	 * Check project: https://github.com/joelviseu/codeigniter-start-mysql 
 	 * 
 	 */
 	function __construct()
@@ -17,13 +16,10 @@ class Xinstall extends MX_Controller  {
 	public function index()
 	{
 		$this->_remap();
-	}
-	
+	}	
 	public function _remap()
-	{
-		
-		$this->load->view('install');
-		
+	{		
+		$this->load->view('install');		
 	}
 	
 }

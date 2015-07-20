@@ -1,13 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Exec extends MX_Controller  {
+class Exec extends CI_Controller  {
 	/**
-	 * Index controller for WEBSITE module.
 	 *
-	 * XCMSv1.0;
-	 * Developed by: www.uxcritivo.com
+	 * Codeigniter Install Mysql
+	 * Developed by: www.joelferreira.eu
 	 * Licence MIT
-	 * Check project: uxcritivo.github.io/xcms 
+	 * Check project: https://github.com/joelviseu/codeigniter-start-mysql 
 	 * 
 	 */
 	function __construct()
@@ -23,18 +22,6 @@ class Exec extends MX_Controller  {
 	public function _remap()
 	{
 		$this->_logardb();
-		/**
-			$file= APPPATH.'/config/database.php';		
-			$new = $this->_content();
-			$new= str_replace("hostname' => ''","hostname' => '".$_POST['hostname']."'",$new);
-			$new= str_replace("username' => ''","username' => '".$_POST['username']."'",$new);
-			$new= str_replace("password' => ''","password' => '".$_POST['password']."'",$new);
-			$new= str_replace("database' => ''","database' => '".$_POST['database']."'",$new);
-			$myfile = fopen($file, "w") or die("Unable to open file!");
-			fwrite($myfile, $new);
-			fclose($myfile);
-		*/
-		
 	}
 	
 	private function _logardb()
@@ -59,7 +46,7 @@ class Exec extends MX_Controller  {
 						}
 						else
 						{
-							echo '<script>alert("Table Exist-ForceOverWrite");window.location.href="'.base_url().'xinstall/";</script>';
+							echo '<script>alert("Table Exist-ForceOverWrite");window.location.href="'.base_url().'/";</script>';
 							//echo "Tables imported successfully<br/>";
 							exit();
 						}						
@@ -79,8 +66,6 @@ class Exec extends MX_Controller  {
 		catch (Exception $e) {
 			echo "ERRO";
 		}
-				
-		
 	}
 	private function _execute()
 	{
@@ -141,7 +126,6 @@ class Exec extends MX_Controller  {
 				'failover' => array(),
 				'save_queries' => TRUE
 		);";
-		return $content;
-				
+		return $content;				
 	}
 }

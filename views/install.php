@@ -1,15 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Xmanager - LOGIN</title>
+    <title>Codeigniter Install Mysql Database</title>
 
 	<!-- VENDOR COMPONENTS -->
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/basic.css">	
-	<script type="text/javascript" src="<?php echo base_url();?>assets/js/basic.js"></script>  		
-	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/login.css">	
-	<script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/hmac-sha256.js"></script>
-	<script src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/components/enc-base64-min.js"></script>
-</head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	</head>
 <body>
 	<div class="container" style="background:#Fff">
         <h1  align="center"><span class="btn-success" style="padding:0 10px;font-size:46px;">X</span> Install </h1>
@@ -59,9 +56,8 @@
               <br/>
                 <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit"  >Instalar</button>
             </form>           
-         <p align="center"> Desenvolvido por: <b>uxcriativo.com</b> </p>
-    </div><!-- /container -->
-    
+         <p align="center"> Desenvolvido por: <b>joelferreira.eu</b> </p>
+    </div><!-- /container -->   
 
 </body>
 </html>
