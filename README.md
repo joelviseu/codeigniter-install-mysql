@@ -1,4 +1,8 @@
-# codeigniter-start-mysql
+# codeigniter-install-mysql
+
+
+Basic example to install or import or data base and run codeigniter APP
+###You can use in all of your projects
 
 ##requires:
 - Codeigniter 3.0
