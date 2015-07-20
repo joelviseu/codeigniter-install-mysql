@@ -1,19 +1,18 @@
-# codeigniter-install-mysql
-
+# Codeigniter Install Mysql Database
 
 Basic example to install or import or data base and run codeigniter APP
-###You can use in all of your projects
+
+```You can use it in all your projects
 
 ##requires:
 - Codeigniter 3.0
 - Mysql: Hostname + username + password
+- Bootstrap 3 (CDN)
 
 ## First Step to Run Application in Codeigniter
 download or fork to your project
 run
 http://localhost/project/
-
-
 
 ##import mysql database
 
