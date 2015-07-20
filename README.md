@@ -2,7 +2,7 @@
 
 Basic example to install or import or data base and run codeigniter APP
 
-```You can use it in all your projects
+```You can use it in all your projects```
 
 ##requires:
 - Codeigniter 3.0
