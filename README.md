@@ -1,6 +1,6 @@
 # Codeigniter Install Mysql Database
 
-Basic example to install or import or data base and run codeigniter APP
+Basic example to install or import your mysql database and run codeigniter APP
 
 ```You can use it in all your projects```
 
